@@ -1,0 +1,27 @@
+collections_config:
+  pages_2:
+    path: src/pages
+    name: Pages 2
+    icon: pages
+  post:
+    path: src/content/post
+    name: Post
+    icon: event_available
+  pages:
+    path: ''
+    name: Pages
+    icon: wysiwyg
+    disable_url: true
+  pages_1:
+    path: src
+    name: Pages 1
+    icon: pages
+    disable_url: true
+paths:
+  static: public
+  uploads: public/uploads
+timezone: Pacific/Auckland
+markdown:
+  engine: commonmark
+  options:
+    gfm: true
