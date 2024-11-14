@@ -1,23 +1,8 @@
 _schema: _schema
 paths:
-  uploads: public/uploads
+  uploads: public/images
   static: public
 collections_config:
-  pages:
-    path: src/pages
-    glob: []
-    name: Pages
-    icon: pages
-    url: '[relative_base_path]/[slug]/'
-    disable_url: false
-    description: ''
-    _enabled_editors:
-      - visual
-      - data
-    disable_add: false
-    disable_add_folder: false
-    disable_file_actions: false
-    schemas:
   posts:
     path: src/content/post
     glob:
