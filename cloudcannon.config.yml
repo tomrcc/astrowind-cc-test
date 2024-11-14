@@ -5,9 +5,7 @@ paths:
 collections_config:
   pages:
     path: src/pages
-    glob:
-      - '**/*.astro'
-      - '**/*.md'
+    glob: []
     name: Pages
     icon: pages
     url: '[relative_base_path]/[slug]/'
